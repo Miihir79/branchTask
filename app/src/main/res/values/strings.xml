@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">branchTask</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="please_enter_your_email_and_password">Please Enter your email, password is generated</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="your_chats">Your Chats</string>
+    <string name="enter_your_message_here">Enter your message here</string>
+    <string name="button_send">button send</string>
+</resources>
