@@ -21,13 +21,13 @@ interface Service {
         @Header("X-Branch-Auth-Token") authToken: String
     ): Response<Message>
 
-    @POST("api/messages")
+    @POST("/api/messages")
     suspend fun sendMessage(
         @Header("X-Branch-Auth-Token") authToken:String,
         @Query("thread_id") threadId: Int,
         @Query("body") message: String
     ): Response<MessageItem>
 
-    @POST("api/reset")
+    @POST("/api/reset")
     suspend fun resetApi(@Header("X-Branch-Auth-Token") authToken:String)
 }
